@@ -3,10 +3,10 @@ publish = "."
 
 [[redirects]]
 from = "/"
-to = "/inventryform.html"
+to = "/inventryMain.php"
 status = 200
 
 [[redirects]]
 from = "/*"
-to = "/inventryform.html"
+to = "/inventryMain.php"
 status = 200
