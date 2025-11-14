@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Apple Product</title>
+</head>
+<body>
+    <h2><ins>Add Apple Product</ins></h2>
+    <form action="inventryform.php" method="post" enctype="multipart/form-data">
+        Product ID: <input type="text" name="productID" required><br><br>
+        Name: <input type="text" name="name" required><br><br>
+        Image: <input type="file" name="image"><br><br>
+        Cost: <input type="text" name="cost" required><br><br>
+        Price: <input type="number" name="price" step="0.01" required><br><br>
+        Quantity: <input type="number" name="quantity" required><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <br>
+    <a href="inventryView2.php"> <button type = "Submit"> View Inventory</button></a>
+    <a href="inventryMain.php"><button type = "Submit"> Back to Main Menu</button></a>
+</body>
+</html>
